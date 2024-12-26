@@ -1,0 +1,14 @@
+footer.footer{
+    
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    height: 2rem;
+    background-color: rgb(27, 23, 24);
+    color: azure;
+    border-radius: 20px 20px 0 0;
+    &   span{
+        color: crimson;
+        font-weight: bold;
+    }
+}

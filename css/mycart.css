@@ -1,0 +1,115 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    position: relative;
+    gap: 5rem;
+    &   .myCartMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+        width: 35rem;
+        height: 18.75rem;
+        position: absolute;
+        border: 1px solid rgba(203, 190, 190, 0.867);
+        border-radius: 15px;
+        box-shadow: 0 5px 10px rgba(225, 44, 20, .9);
+        padding: .5rem 3rem;
+        top: 2rem;
+        overflow-y: auto;       /* Adds a vertical scroll bar when content overflows */
+        overflow-x: hidden;     /* Prevent horizontal scrolling */
+        
+    }
+
+}
+
+article{
+    display: flex;
+    padding: .7rem 1rem;
+    width: 35rem;
+    height: 4.5rem;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #393939;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(6 5 4 / 15%);
+    &   .control-quantity{
+        display: flex;
+        align-items: center;
+        font-size: 1.3rem;
+        gap: 1.5rem;
+    }
+    &   .proImgAndName{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &   .pro-img{
+        width: 70px;
+    }
+    &   .delete-button{
+        color: crimson;
+        font-size: 1.3rem;
+    }
+    &   .pro-price{
+        color: rgb(46, 46, 234);
+        font-size: larger;
+        font-weight: bold;
+    }
+
+}
+.ProformaInvoice{
+    position: absolute;
+    bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 35rem;
+    height: 8rem;
+    border: 1px solid rgba(203, 190, 190, 0.867);
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(225, 44, 20, .9);
+    font-size: 1.3rem;
+    font-weight: bold;
+    &   .totalBlock{
+        border: 1px solid rgba(203, 190, 190, 0.867);
+        border-radius: 15px;
+        padding: 2px 10px;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        
+
+    }
+    &   .purchase{
+        display: flex;
+        justify-content: center;
+        background-color: crimson;
+        border: 1px solid rgba(203, 190, 190, 0.867);
+        border-radius: 15px;
+        padding: 2px 10px;
+        width: 90%;
+    }
+}
+.home{
+
+    position: absolute;
+    bottom: 20px;         
+    left: 30px; 
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: #03ab6d;
+    color: aliceblue;
+    border: 0px solid #393939;
+    border-radius: 30px;
+    font-size: 2rem;     
+    padding: 3px 20px; 
+}
+.home:hover{
+    color: #393939;
+}
